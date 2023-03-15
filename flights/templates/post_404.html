@@ -1,0 +1,10 @@
+{% extends 'layouts.html' %}
+
+{% block body %}
+    <h1>Uh-ooh! The selected flight id isn't recognsed in our server.</h1>
+    <!--{{exception}}-->
+
+    <br>
+    <br>
+    <a href="{% url 'index'%}">Back to flights list</a>
+{% endblock  %}
